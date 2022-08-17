@@ -1,0 +1,28 @@
+/* MAIN.SCSS
+ *  Import all seperate files 
+ *  https://sass-guidelin.es/#the-7-1-pattern
+ */
+
+// import abstracts
+@import 'abstracts/_variables.scss';
+@import 'abstracts/_functions.scss';
+@import 'abstracts/_mixins.scss';
+
+// import base
+@import 'base/_reset.scss';
+@import 'base/_typography.scss';
+
+// import layout
+@import 'layout/_header.scss';
+@import 'layout/_nav.scss';
+@import 'layout/_footer.scss';
+
+// import partials
+@import 'partials/_buttons.scss';
+@import 'partials/_cover.scss';
+
+// import pages
+@import 'pages/_index.scss';
+
+// import animations
+@import 'animations/_animations.scss';
